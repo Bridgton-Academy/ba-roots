@@ -11,9 +11,11 @@
     do_action('get_header');
     get_template_part('templates/header');
   ?>
+  <h1>Home page!!!</h1>
 
   <div class="wrap" role="document">
     <div class="content row">
+	    <h1>Home page!!!</h1>
       <main class="main" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
