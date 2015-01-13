@@ -9,7 +9,7 @@
 
   
   
-  <?php get_template_part('templates/page', 'header'); ?>
+  <?php get_template_part('templates/page', 'header-home'); ?>
   <?php
     do_action('get_header');
     get_template_part('templates/header-home');
@@ -30,6 +30,14 @@
   <?php get_template_part('templates/footer'); ?>
 
   <?php wp_footer(); ?>
+  <script type="text/javascript">
+$('#nav-home').affix({
+	offset: {
+		top: $('#header').height()
+	}
+});
+</script>
+
 
 </body>
 </html>

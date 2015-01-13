@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-default navbar-static-top"  data-spy="affix" data-offset-top="600" id="nav-home" role="banner">
+<header class="banner navbar navbar-default navbar-static-top" id="nav-home" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
