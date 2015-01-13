@@ -7,17 +7,17 @@
     </div>
   <![endif]-->
 
+  
+  
+  <?php get_template_part('templates/page', 'header'); ?>
   <?php
     do_action('get_header');
-    get_template_part('templates/header');
+    get_template_part('templates/header-home');
   ?>
-  <h1>Home page!!!</h1>
-
-  <div class="wrap" role="document">
+  <div class="wrap container" role="document">
     <div class="content row">
-	    
       <main class="main" role="main">
-        <h1>Home page!!!</h1>
+        <?php include roots_template_path(); ?>
       </main><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
         <aside class="sidebar" role="complementary">

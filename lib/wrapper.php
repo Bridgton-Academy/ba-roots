@@ -59,7 +59,7 @@ class Roots_Wrapping {
 }
 add_filter('template_include', array('Roots_Wrapping', 'wrap'), 99);
 
-add_filter('roots/wrap_base', 'roots_wrap_base_cpts'); // Add our function to the roots_wrap_base filter
+add_filter('roots_wrap_base', 'roots_wrap_base_cpts'); // Add our function to the roots_wrap_base filter
 
 function roots_wrap_base_cpts($templates) {
   $cpt = get_post_type(); // Get the current post type
