@@ -10,6 +10,17 @@
 
 @brand-primary:         #870909;
 
+@brand-success:			#6bc26b;
+@brand-warning:			#0d1394;
+@brand-danger:			#6feaf2;
+@brand-info:			#e8863f;
+
+// Typography
+@font-family-sans-serif: 	"pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:			"trajan-pro-3", Georgia, "Times New Roman", Times, serif;
+
+@headings-font-family:		@font-family-serif;
+
 
 // Glyphicons path
 // -------------------------
@@ -19,7 +30,7 @@
 // Navbar default
 @grid-float-breakpoint:			   @screen-sm-max;
 @navbar-default-color:             #fff;
-@navbar-default-bg:                @brand-primary;
+@navbar-default-bg:                black; //@brand-primary;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
@@ -44,6 +55,7 @@
 @navbar-margin-bottom:						0px;
 
 .jumbotron {
+	margin-bottom: 0px;
 	@media (max-width: @screen-xs-max) {
 		height: 200px;
 	}
@@ -56,10 +68,13 @@
   	header {
 	  	display: inline-block;
 	  	padding: 15px;
-	  	background-color: @brand-primary;
 	  	color: white;
+	  	//max-width: @
 	  	* {
 		  	margin: 0px;
+	  	}
+	  	@media (max-width: @screen-xs-max) {
+		  	background-color: fade(@brand-primary, 50%);
 	  	}
   	}
 }
@@ -70,6 +85,24 @@
 	width: 100%;
 }
 
+
+// make sure the home jumbotron has no space above the navbar, but that may be taken care off with margin-bottom up top
 .home > .jumbotron {
 	margin-bottom: 0px;
+}
+
+// squared off buttons
+.btn-rectangle {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border: none;
+}
+
+.content {
+	margin-top: 15px;
+}
+
+// Style the school name in the navbar
+.navbar-brand {
 }
