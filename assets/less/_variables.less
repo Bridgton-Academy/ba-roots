@@ -114,3 +114,29 @@
 // Style the school name in the navbar
 .navbar-brand {
 }
+
+
+// Jumbotron arrow down http://cssarrowplease.com
+.arrow-jumbo-primary {
+	position: relative;
+	background: @brand-primary
+}
+.arrow-jumbo-primary:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: @brand-primary;
+	border-top-color: @brand-primary;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+// Make it so that the dropdowns don't expand stuff wider
+b.caret {
+	margin-right: -8px;
+}
