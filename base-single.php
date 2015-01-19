@@ -7,15 +7,15 @@
     </div>
   <![endif]-->
 
-  
-  
-  <?php 
-	get_template_part('templates/page', 'header-home');
+  <?php
+	if (has_post_thumbnail()) {
+	  	get_template_part('templates/page', 'header');
+	}
     do_action('get_header');
-    get_template_part('templates/header-home');
+    get_template_part('templates/header');
   ?>
-  <div class="wrap" role="document">
-    <div class="row">
+  <div class="wrap container" role="document">
+    <div class="content row">
       <main class="main" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
@@ -30,14 +30,6 @@
   <?php get_template_part('templates/footer'); ?>
 
   <?php wp_footer(); ?>
-  <?php /*<script type="text/javascript">
-$('#nav-home').affix({
-	offset: {
-		top: $('#header').height()
-	}
-});
-</script>*/?>
-
 
 </body>
 </html>
