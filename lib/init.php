@@ -14,7 +14,8 @@ function roots_setup() {
   // Register wp_nav_menu() menus
   // http://codex.wordpress.org/Function_Reference/register_nav_menus
   register_nav_menus(array(
-    'primary_navigation' => __('Primary Navigation', 'roots')
+    'primary_navigation' => __('Primary Navigation', 'roots'),
+    'footer_navigation' => 'Footer Navigation',
   ));
 
   // Add post thumbnails
@@ -22,7 +23,8 @@ function roots_setup() {
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
   add_theme_support('post-thumbnails');
-
+  set_post_thumbnail_size(1140,2000);
+  
   // Add post formats
   // http://codex.wordpress.org/Post_Formats
   add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio'));
