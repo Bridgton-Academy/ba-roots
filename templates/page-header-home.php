@@ -6,9 +6,10 @@ $post_thumbnail_url = $post_thumbnail_src[0]
 <div id="header" class="jumbotron" style="background-image: url(<?php echo $post_thumbnail_url ?>); background-size: 100%;">
 	<div class="container">
 		<header class="pull-right">
-			<h1>
+			<h1 style="text-align: right;">
 				Bridgton<br /> Academy
 			</h1>
+			<h4>The Year That Makes <i>The</i> Difference</h4>
 		</header>
 	</div>
 </div>

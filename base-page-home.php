@@ -30,13 +30,13 @@
   <?php get_template_part('templates/footer'); ?>
 
   <?php wp_footer(); ?>
-  <?php /*<script type="text/javascript">
+  <script type="text/javascript">
 $('#nav-home').affix({
 	offset: {
 		top: $('#header').height()
 	}
 });
-</script>*/?>
+</script>
 
 
 </body>
