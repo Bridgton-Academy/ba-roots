@@ -31,3 +31,49 @@ foreach ($roots_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_action('wp_footer', 'add_fitthem');
+
+
+// Add FitVids to allow for responsive sizing of videos
+function your_theme_fitvids() {
+	if (!is_admin()) {
+
+		wp_register_script( 'fitvids', get_template_directory_uri() . '/assets/vendor/fitvids/jquery.fitvids.js', array('jquery'), '1.0', true);    	
+    	wp_enqueue_script( 'fitvids');
+    	
+    	function add_fitthem() { 
+			//if( wp_script_is('fitvids', 'done')) {
+				?>
+					<script type="text/javascript">
+					jQuery(document).ready(function() {
+						jQuery('.video').fitVids();
+					});
+					</script>
+				<?php
+			//}
+		}
+		
+		
+		// Needs to be a low priority (like 100) to execute after the scripts which are around 20
+		add_action('wp_footer', 'add_fitthem', 100);
+	}
+}
+
+
+
+add_action('init', 'your_theme_fitvids');
+    	
+
+
+// Automatically add FitVids to oembed YouTube videos
+function your_theme_embed_filter( $output, $data, $url ) {
+
+	$return = '<div class="video">'.$output.'</div>';
+	return $return;
+
+}
+// Not working
+//add_filter('oembed_dataparse', 'your_theme_embed_filter', 90, 3 );
+
+add_filter('embed_oembed_html', 'your_theme_embed_filter', 10, 3);
