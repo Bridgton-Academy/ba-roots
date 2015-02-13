@@ -22,7 +22,16 @@
 		  <div class="col-md-4">
 			  <ul class="social pull-right">
 				  <li>
-				  	<a target="_blank" href="https://www.facebook.com/BridgtonAcademy1808">
+				  	<a
+						class="btn"
+						tabindex="0"
+						role="button"
+						data-toggle="popover"
+						title="BA on Facebook"
+						data-content='<ul><li><a target="_blank" href="https://www.facebook.com/BridgtonAcademy1808">Bridgton Academy</a></li><li>Baseball</li><li>Basketball</li><li>College Counseling</li><li>Football</li><li>Lacrosse</li><li>Rugby</li></ul>'
+						data-html="true"
+						data-placement="top"
+						data-trigger="click" >
 					  	<i class="fa fa-facebook"></i>
 				  	</a>
 				  </li>

@@ -50,6 +50,11 @@ function your_theme_fitvids() {
 						jQuery('.video').fitVids();
 					});
 					</script>
+					<script type="text/javascript">
+					$(document).ready(function(){
+						$('[data-toggle="popover"]').popover();
+					});
+					</script>
 				<?php
 			//}
 		}
