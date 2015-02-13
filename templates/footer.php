@@ -28,7 +28,15 @@
 						role="button"
 						data-toggle="popover"
 						title="BA on Facebook"
-						data-content='<ul><li><a target="_blank" href="https://www.facebook.com/BridgtonAcademy1808">Bridgton Academy</a></li><li>Baseball</li><li>Basketball</li><li>College Counseling</li><li>Football</li><li>Lacrosse</li><li>Rugby</li></ul>'
+						data-content='<ul>
+							<li><a target="_blank" href="https://www.facebook.com/BridgtonAcademy1808">Bridgton Academy</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/pages/Bridgton-Academy-Baseball/180907795285983">Baseball</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/BridgtonAcademyBasketball">Basketball</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/BACollegeCounseling">College Counseling</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/pages/Bridgton-Academy-Football/220812291308845">Football</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/BridgtonLacrosse">Lacrosse</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/BARugbyAlums">Rugby</a></li>
+							</ul>'
 						data-html="true"
 						data-placement="top"
 						data-trigger="click" >
