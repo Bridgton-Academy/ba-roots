@@ -17,7 +17,7 @@
 
 // Typography
 @font-family-sans-serif: 	"pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:			"trajan-pro-3", Georgia, "Times New Roman", Times, serif;
+@font-family-serif:			"sorts-mill-goudy", Georgia, "Times New Roman", Times, serif;
 
 @headings-font-family:		@font-family-serif;
 
@@ -83,7 +83,11 @@
 	width: 100%;
 }
 
-
+header, .footer-brand {
+	h1, h2, h3, h4, h5, h6 {
+		font-family:  "trajan-pro-3", @font-family-serif;
+	}
+}
 
 
 // make sure the home jumbotron has no space above the navbar, but that may be taken care off with margin-bottom up top
@@ -98,6 +102,10 @@
 		}
 		h1, h2, h3, h4, h5, h6, p {
 			color: white;
+		}
+		p {
+			//font-family: @font-family-serif;
+			font-size: @font-size-h4;
 		}
 	}
 }
@@ -182,6 +190,9 @@ footer {
 			color: darken(white, 15%);
 			text-decoration: none;
 		} 
+		h6 {
+			text-align: left;
+		}
 	}
 	a {
 		color: white;
