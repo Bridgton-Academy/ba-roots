@@ -51,8 +51,8 @@ function your_theme_fitvids() {
 					});
 					</script>
 					<script type="text/javascript">
-					$(document).ready(function(){
-						$('[data-toggle="popover"]').popover();
+					jQuery(document).ready(function(){
+						jQuery('[data-toggle="popover"]').popover();
 					});
 					</script>
 				<?php

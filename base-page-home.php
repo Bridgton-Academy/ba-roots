@@ -31,9 +31,9 @@
 
   <?php wp_footer(); ?>
   <script type="text/javascript">
-$('#nav-home').affix({
+jQuery('#nav-home').affix({
 	offset: {
-		top: $('#header').height()
+		top: jQuery('#header').height()
 	}
 });
 </script>
