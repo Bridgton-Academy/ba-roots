@@ -84,4 +84,4 @@ function your_theme_embed_filter( $output, $data, $url ) {
 add_filter('embed_oembed_html', 'your_theme_embed_filter', 10, 3);
 
 // allowing shortcodes in widgets per https://wordpress.org/support/topic/how-to-make-shortcodes-work-in-a-widget
-add_filter('widget_text', 'do_shortcode')
+add_filter('widget_text', 'do_shortcode');
