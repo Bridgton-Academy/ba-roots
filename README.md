@@ -1,5 +1,17 @@
-# [Roots Starter Theme](http://roots.io/)
-[![devDependency Status](https://david-dm.org/roots/roots/dev-status.svg)](https://david-dm.org/roots/roots#info=devDependencies)
+# Bridgton Academy Website Theme
+
+The Bridgton Academy Website Theme is based on Roots (now known as Sage) and some of it's spheel is down below.
+
+Things and rules in various orders:
+- Designed to work with a few plugins
+    - All-in-One Event Calendar
+    - Jetpack
+    - Page-list (for a sitemap)
+    - Simple Page Sidebars
+    - Storyform
+    - Stream (Hopefully)
+    - WordPress Social Stream
+- When uploading an image, try to put YYYYMMDD- at the beginning of the file (with the correct date of capture), so it's easy to know which images are getting stale.
 
 Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
 
@@ -72,8 +84,8 @@ From the command line:
 
 When completed, you'll be able to run the various Grunt commands provided from the command line.
 
-**N.B.** 
-You will need write permission to the global npm directory to install `grunt-cli` and `bower`. You will also likely have to be using an elevated terminal or prefix the command with `sudo`, i.e., `sudo npm install -g grunt-cli bower`. 
+**N.B.**
+You will need write permission to the global npm directory to install `grunt-cli` and `bower`. You will also likely have to be using an elevated terminal or prefix the command with `sudo`, i.e., `sudo npm install -g grunt-cli bower`.
 
 We also advise against running as root user. NPM deliberately uses limited privileges when executing certain commands such as those included in the Roots post-install process, and when this happens to the root user, any file system objects that are not expressly writable by the root user will fail to write during the execution of the command. These might include directories such as `/var/www` or `/home/someotheruser`. If you're running as root and have problems, don't say we didn't warn you.
 
