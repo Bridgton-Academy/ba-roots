@@ -1,0 +1,142 @@
+<h1>Bridgton Academy Website Theme</h1>
+
+<p>The Bridgton Academy Website Theme is based on Roots (now known as Sage) and some of it&rsquo;s spheel is down below.</p>
+
+<p>Things and rules in various orders:
+- Designed to work with a few plugins
+    - All-in-One Event Calendar
+    - Jetpack
+    - Page-list (for a sitemap)
+    - Simple Page Sidebars
+    - Storyform
+    - Stream (Hopefully)
+    - WordPress Social Stream
+- When uploading an image, try to put YYYYMMDD- at the beginning of the file (with the correct date of capture), so it&rsquo;s easy to know which images are getting stale.</p>
+
+<p>Roots is a WordPress starter theme based on <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> &amp; <a href="http://getbootstrap.com/">Bootstrap</a> that will help you make better themes.</p>
+
+<ul>
+<li>Source: <a href="https://github.com/roots/roots">https://github.com/roots/roots</a></li>
+<li>Homepage: <a href="http://roots.io/">http://roots.io/</a></li>
+<li>Documentation: <a href="http://roots.io/docs/">http://roots.io/docs/</a></li>
+<li>Twitter: <a href="https://twitter.com/rootswp">@rootswp</a>, <a href="https://twitter.com/retlehs">@retlehs</a>, <a href="https://twitter.com/swalkinshaw">@swalkinshaw</a>, <a href="https://twitter.com/Foxaii">@Foxaii</a>, <a href="https://twitter.com/c2foryou">@c2foryou</a></li>
+<li>Newsletter: <a href="http://roots.io/subscribe/">Subscribe</a></li>
+<li>Forum: <a href="http://discourse.roots.io/">http://discourse.roots.io/</a></li>
+</ul>
+
+
+<h2>Features</h2>
+
+<ul>
+<li><a href="http://roots.io/using-grunt-for-wordpress-theme-development/">Grunt</a> for compiling LESS to CSS, checking for JS errors, live reloading, concatenating and minifying files, versioning assets, and generating lean Modernizr builds</li>
+<li><a href="http://bower.io/">Bower</a> for front-end package management</li>
+<li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>
+
+<ul>
+<li>The latest <a href="http://jquery.com/">jQuery</a> via Google CDN, with a local fallback</li>
+<li>The latest <a href="http://modernizr.com/">Modernizr</a> build for feature detection, with lean builds with Grunt</li>
+<li>An optimized Google Analytics snippet</li>
+</ul>
+</li>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li>Organized file and template structure</li>
+<li>ARIA roles and microformats</li>
+<li><a href="http://roots.io/roots-101/#theme-activation">Theme activation</a></li>
+<li><a href="http://roots.io/an-introduction-to-the-roots-theme-wrapper/">Theme wrapper</a></li>
+<li>Cleaner HTML output of navigation menus</li>
+<li>Posts use the <a href="http://microformats.org/wiki/hnews">hNews</a> microformat</li>
+<li><a href="http://roots.io/wpml/">Multilingual ready</a> and over 30 available <a href="https://github.com/roots/roots-translations">community translations</a></li>
+</ul>
+
+
+<h3>Additional features</h3>
+
+<p>Install the <a href="https://github.com/roots/soil">Soil</a> plugin to enable additional features:</p>
+
+<ul>
+<li>Root relative URLs</li>
+<li>Nice search (<code>/search/query/</code>)</li>
+<li>Cleaner output of <code>wp_head</code> and enqueued assets markup</li>
+</ul>
+
+
+<h2>Installation</h2>
+
+<p>Clone the git repo - <code>git clone git://github.com/roots/roots.git</code> - or <a href="https://github.com/roots/roots/zipball/master">download it</a> and then rename the directory to the name of your theme or website.</p>
+
+<p>If you don&rsquo;t use <a href="https://github.com/roots/bedrock">Bedrock</a>, you&rsquo;ll need to add the following to your <code>wp-config.php</code> on your development installation:</p>
+
+<p><code>php
+define('WP_ENV', 'development');
+</code></p>
+
+<h2>Theme activation</h2>
+
+<p>Reference the <a href="http://roots.io/roots-101/#theme-activation">theme activation</a> documentation to understand everything that happens once you activate Roots.</p>
+
+<h2>Configuration</h2>
+
+<p>Edit <code>lib/config.php</code> to enable or disable theme features and to define a Google Analytics ID.</p>
+
+<p>Edit <code>lib/init.php</code> to setup navigation menus, post thumbnail sizes, post formats, and sidebars.</p>
+
+<h2>Theme development</h2>
+
+<p>Roots uses <a href="http://gruntjs.com/">Grunt</a> for compiling LESS to CSS, checking for JS errors, live reloading, concatenating and minifying files, versioning assets, and generating lean Modernizr builds.</p>
+
+<p>If you&rsquo;d like to use Bootstrap Sass, look at the <a href="https://github.com/roots/roots-sass">Roots Sass</a> fork.</p>
+
+<h3>Install Grunt and Bower</h3>
+
+<p><strong>Unfamiliar with npm? Don&rsquo;t have node installed?</strong> <a href="http://nodejs.org/download/">Download and install node.js</a> before proceeding.</p>
+
+<p>From the command line:</p>
+
+<ol>
+<li>Install <code>grunt-cli</code> and <code>bower</code> globally with <code>npm install -g grunt-cli bower</code>.</li>
+<li>Navigate to the theme directory, then run <code>npm install</code>. npm will look at <code>package.json</code> and automatically install the necessary dependencies. It will also automatically run <code>bower install</code>, which installs front-end packages defined in <code>bower.json</code>.</li>
+</ol>
+
+
+<p>When completed, you&rsquo;ll be able to run the various Grunt commands provided from the command line.</p>
+
+<p><strong>N.B.</strong>
+You will need write permission to the global npm directory to install <code>grunt-cli</code> and <code>bower</code>. You will also likely have to be using an elevated terminal or prefix the command with <code>sudo</code>, i.e., <code>sudo npm install -g grunt-cli bower</code>.</p>
+
+<p>We also advise against running as root user. NPM deliberately uses limited privileges when executing certain commands such as those included in the Roots post-install process, and when this happens to the root user, any file system objects that are not expressly writable by the root user will fail to write during the execution of the command. These might include directories such as <code>/var/www</code> or <code>/home/someotheruser</code>. If you&rsquo;re running as root and have problems, don&rsquo;t say we didn&rsquo;t warn you.</p>
+
+<h3>Available Grunt commands</h3>
+
+<ul>
+<li><code>grunt dev</code> — Compile LESS to CSS, concatenate and validate JS</li>
+<li><code>grunt watch</code> — Compile assets when file changes are made</li>
+<li><code>grunt build</code> — Create minified assets that are used on non-development environments</li>
+</ul>
+
+
+<h2>Documentation</h2>
+
+<ul>
+<li><a href="http://roots.io/roots-101/">Roots 101</a> — A guide to installing Roots, the files, and theme organization</li>
+<li><a href="http://roots.io/an-introduction-to-the-roots-theme-wrapper/">Theme Wrapper</a> — Learn all about the theme wrapper</li>
+<li><a href="http://roots.io/using-grunt-for-wordpress-theme-development/">Build Script</a> — A look into how Roots uses Grunt</li>
+<li><a href="http://roots.io/the-roots-sidebar/">Roots Sidebar</a> — Understand how to display or hide the sidebar in Roots</li>
+</ul>
+
+
+<h2>Contributing</h2>
+
+<p>Everyone is welcome to help <a href="CONTRIBUTING.md">contribute</a> and improve this project. There are several ways you can contribute:</p>
+
+<ul>
+<li>Reporting issues (please read <a href="https://github.com/necolas/issue-guidelines">issue guidelines</a>)</li>
+<li>Suggesting new features</li>
+<li>Writing or refactoring code</li>
+<li>Fixing <a href="https://github.com/roots/roots/issues">issues</a></li>
+<li>Replying to questions on the <a href="http://discourse.roots.io/">forum</a></li>
+</ul>
+
+
+<h2>Support</h2>
+
+<p>Use the <a href="http://discourse.roots.io/">Roots Discourse</a> to ask questions and get support.</p>
