@@ -5,7 +5,7 @@
 			  <h6>An independent postgraduate academy that provides a one-year, boarding school environment to prepare young men for the rigors of college and beyond.</h6>
 		  </div>
 	  </div>
-	  
+
 	  <div class="row">
 		  <div class="col-sm-6">
 			  <nav>
@@ -30,6 +30,7 @@
 							<li><a target="_blank" href="https://www.facebook.com/BridgtonAcademyBasketball">Basketball</a></li>
 							<li><a target="_blank" href="https://www.facebook.com/BACollegeCounseling">College Counseling</a></li>
 							<li><a target="_blank" href="https://www.facebook.com/pages/Bridgton-Academy-Football/220812291308845">Football</a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/bridgton.academyhockey">Hockey</a></li>
 							<li><a target="_blank" href="https://www.facebook.com/BridgtonLacrosse">Lacrosse</a></li>
 							<li><a target="_blank" href="https://www.facebook.com/BARugbyAlums">Rugby</a></li>
 							</ul>'
@@ -40,8 +41,8 @@
 				  	</a>
 				  </li>
 				  <li>
-				  	<a 
-					  	
+				  	<a
+
 						tabindex="0"
 						role="button"
 						data-toggle="popover"
@@ -57,7 +58,7 @@
 							<li><a target="_blank" href="https://twitter.com/bridgton_ftbl">Football</a></li>
 							<li><a target="_blank" href="https://twitter.com/wolverinehockey">Hockey</a></li>
 							<li><a target="_blank" href="https://twitter.com/wolverinelax">Lacrosse</a></li>
-							<li><a target="_blank" href="https://twitter.com/soccerwolverine">Soccer</a></li>
+							<li><a target="_blank" href="https://twitter.com/BAsoccer">Soccer</a></li>
 							<li><a target="_blank" href="https://twitter.com/ba_student_life">Student Life</a></li>
 							</ul>' >
 					  	<i class="fa fa-twitter"></i>
@@ -76,14 +77,14 @@
 			  </ul>
 		  </div>
 	  </div>
-	  
+
 	  <div class="row">
 		  <div class="col-sm-4 brand" style="display: inline-block; height: auto; text-align: left;">
 			  <a class="footer-brand" href="<?php echo esc_url(home_url('/')); ?>" >
 				  <h5 class="brand"><?php bloginfo('name'); ?></h5>
 				  <h6 class="brand">The Year That Makes <i>The</i> Difference</h6>
 			  </a>
-			  
+
 		  </div>
 		  <div class="col-sm-4">
 			  <a class="footer-brand" href="<?php echo esc_url(home_url('/')); ?>" >
