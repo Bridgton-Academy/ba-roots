@@ -6732,6 +6732,9 @@ footer .brand a:hover {
 footer .brand h6 {
   text-align: left;
 }
+footer .brand-contact {
+  font-size: 125%;
+}
 footer a {
   color: white;
 }

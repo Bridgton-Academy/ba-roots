@@ -92,7 +92,7 @@
 			  </a>
 		  </div>
 		  <div class="col-sm-4">
-			  <div class="brand" style="text-align: right;">
+			  <div class="brand brand-contact" style="text-align: right;">
 				  <p>11 Academy Lane, North Bridgton, Maine 04057</p>
 				  <p><a class="brand-link" href="tel:12076473322">(207) 647-3322</a></p>
 				  <p><a class="brand-link" href="tel:12076473322p1">Admissions - (207) 647-3322 x1</a></p>
