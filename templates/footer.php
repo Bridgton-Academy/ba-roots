@@ -93,7 +93,7 @@
 		  </div>
 		  <div class="col-sm-4">
 			  <div class="brand brand-contact" style="text-align: right;">
-				  <p>11 Academy Lane, P.O. Box 225</p>
+				  <p>11 Academy Lane, P.O. Box 292</p>
                   <p>North Bridgton, Maine 04057</p>
 				  <p><a class="brand-link" href="tel:12076473322">(207) 647-3322</a></p>
 				  <p><a class="brand-link" href="tel:12076473322p1">Admissions - (207) 647-3322 x1</a></p>
