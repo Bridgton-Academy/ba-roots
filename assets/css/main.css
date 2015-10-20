@@ -6681,6 +6681,9 @@ header h6,
 .content {
   margin-top: 15px;
 }
+.content .main img {
+  max-width: 100%;
+}
 .arrow-jumbo-primary {
   position: relative;
   background: #870909;
