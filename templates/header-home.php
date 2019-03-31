@@ -1,22 +1,36 @@
-<header class="banner navbar navbar-default navbar-static-top" id="nav-home" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-      <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paw-icon-white.png" style="display: inline-block; margin-right: 10px;" alt="Brand"><?php bloginfo('name'); ?></a>
-    </div>
+<header id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <h1 id="site-title"><div id="seal"><img src="assets/images/seal150invert.png" /></div><div id="title">Bridgton Academy</div></h1>
 
-    <nav class="collapse navbar-collapse" role="navigation">
-      <?php
-        if (has_nav_menu('primary_navigation')) :
-          wp_nav_menu(array('theme_location' => 'primary_navigation', 'walker' => new Roots_Nav_Walker(), 'menu_class' => 'nav navbar-nav navbar-right'));
-        endif;
-      ?>
-    </nav>
+  <ul id="main-nav">
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/admissions/">Admissions</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/about/">About Us</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/academics/">Academics</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/student-life/">Student Life</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/athletics/">Athletics</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/alumni/">Alumni/Giving</a></li>
+  </ul>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/images/carousel/1.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/2.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/3.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/4.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/5.jpg" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/6.jpg" alt="">
+    </div>
+    <!--div class="carousel-item">
+      <img class="d-block w-100" src="assets/images/carousel/7.jpg" alt="">
+    </div-->
   </div>
 </header>
