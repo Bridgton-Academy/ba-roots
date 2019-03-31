@@ -1,5 +1,5 @@
 <header id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-  <h1 id="site-title"><div id="seal"><img src="assets/images/seal150invert.png" /></div><div id="title">Bridgton Academy</div></h1>
+  <h1 id="site-title"><div id="seal"><img src="assets/img/seal150invert.png" /></div><div id="title">Bridgton Academy</div></h1>
 
   <ul id="main-nav">
     <li class="nav-item"><a class="nav-link" href="https://bridgtonacademy.org/admissions/">Admissions</a></li>
