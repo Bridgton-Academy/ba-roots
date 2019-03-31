@@ -31,3 +31,27 @@
     </div>
   </div>
 </header>
+
+<div id="secondNavMobile">
+  <a class="secondNav-item" href="https://bridgtonacademy.org/academics/">
+    <img src="assets/images/secondNav/mobile/Inquire.jpg" />
+  </a>
+  <a class="secondNav-item" href="https://bridgtonacademy.org/academics/">
+    <img src="assets/images/secondNav/mobile/Academics.jpg" />
+  </a>
+  <a class="secondNav-item" href="https://bridgton.myoneschool.com/admissions">
+    <img src="assets/images/secondNav/mobile/Admissions.jpg" />
+  </a>
+  <a class="secondNav-item" href="https://bridgtonacademy.org/athletics/">
+    <img src="assets/images/secondNav/mobile/Athletics.jpg" />
+  </a>
+  <a class="secondNav-item" href="https://bridgtonacademy.org/student-life/">
+    <img src="assets/images/secondNav/mobile/Student_Life.jpg" />
+  </a>
+  <a class="secondNav-item" href="https://bridgtonacademy.org/news/">
+    <img src="assets/images/secondNav/mobile/news.jpg" />
+  </a>
+  <a class="secondNav-item" href="http://secure.diamondmindinc.com/bridgtonacademy/annual.html">
+    <img src="assets/images/secondNav/mobile/give.jpg" />
+  </a>
+</div>
