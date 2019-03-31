@@ -1,5 +1,5 @@
-<?php get_template_part('templates/header-home'); ?>
-<body <?php body_class(); ?>>
+<?php get_template_part('templates/head-home'); ?>
+<body class="bg_dark">
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -9,11 +9,13 @@
 
   
   
-  <?php 
+  <?php /*
 	get_template_part('templates/page', 'header-home');
     do_action('get_header');
     get_template_part('templates/header-home');
-  ?>
+  */?>
+
+  <?php get_template_part('templates/header-home') ?>
   <?php get_template_part('templates/footer-home'); ?>
 
 
