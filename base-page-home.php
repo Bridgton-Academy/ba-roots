@@ -14,7 +14,7 @@
     do_action('get_header');
     get_template_part('templates/header-home');
   ?>
-  <?php get_template_part('templates/footer'); ?>
+  <?php get_template_part('templates/footer-home'); ?>
 
 
 	<!-- Optional JavaScript -->
