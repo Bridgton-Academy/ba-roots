@@ -34,24 +34,24 @@
 
 <div id="secondNavMobile">
   <a class="secondNav-item" href="https://bridgtonacademy.org/academics/">
-    <img src="assets/images/secondNav/mobile/Inquire.jpg" />
+    <img src="assets/img/secondNav/mobile/Inquire.jpg" />
   </a>
   <a class="secondNav-item" href="https://bridgtonacademy.org/academics/">
-    <img src="assets/images/secondNav/mobile/Academics.jpg" />
+    <img src="assets/img/secondNav/mobile/Academics.jpg" />
   </a>
   <a class="secondNav-item" href="https://bridgton.myoneschool.com/admissions">
-    <img src="assets/images/secondNav/mobile/Admissions.jpg" />
+    <img src="assets/img/secondNav/mobile/Admissions.jpg" />
   </a>
   <a class="secondNav-item" href="https://bridgtonacademy.org/athletics/">
-    <img src="assets/images/secondNav/mobile/Athletics.jpg" />
+    <img src="assets/img/secondNav/mobile/Athletics.jpg" />
   </a>
   <a class="secondNav-item" href="https://bridgtonacademy.org/student-life/">
-    <img src="assets/images/secondNav/mobile/Student_Life.jpg" />
+    <img src="assets/img/secondNav/mobile/Student_Life.jpg" />
   </a>
   <a class="secondNav-item" href="https://bridgtonacademy.org/news/">
-    <img src="assets/images/secondNav/mobile/news.jpg" />
+    <img src="assets/img/secondNav/mobile/news.jpg" />
   </a>
   <a class="secondNav-item" href="http://secure.diamondmindinc.com/bridgtonacademy/annual.html">
-    <img src="assets/images/secondNav/mobile/give.jpg" />
+    <img src="assets/img/secondNav/mobile/give.jpg" />
   </a>
 </div>
