@@ -12,25 +12,22 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/images/carousel/1.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/1.jpg" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/2.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/2.jpg" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/3.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/3.jpg" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/4.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/4.jpg" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/5.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/5.jpg" alt="">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/6.jpg" alt="">
+      <img class="d-block w-100" src="assets/img/carousel/6.jpg" alt="">
     </div>
-    <!--div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/carousel/7.jpg" alt="">
-    </div-->
   </div>
 </header>
