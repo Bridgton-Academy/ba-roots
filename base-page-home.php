@@ -1,4 +1,4 @@
-<?php get_template_part('templates/head-home'); ?>
+<?php get_template_part('templates/header-home'); ?>
 <body <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
